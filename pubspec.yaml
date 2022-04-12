@@ -1,0 +1,35 @@
+name: challenge
+description: Coding Challenge
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.3 <3.0.0'
+  flutter: ">=2.0.0"
+
+dependencies:
+  cupertino_icons:
+  flutter:
+    sdk: flutter
+  flutter_hooks:
+  freezed:
+  hooks_riverpod:
+  intl:
+  json_annotation: ^4.4.0
+  retrofit:
+  dio:
+
+
+dev_dependencies:
+  build_runner:
+  flutter_lints:
+  flutter_test:
+    sdk: flutter
+  freezed_annotation:
+  json_serializable:
+  retrofit_generator:
+
+flutter:
+  uses-material-design: true
